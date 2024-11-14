@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kategori - Ayakkabılar</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navbar (aynı navbar burada da olmalı) -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html"><button class="nav-btn" id="home-btn">Ana Səhifə</button></a>
+        </div>
+        <div class="navbar-center">
+            <input type="text" id="search-bar" placeholder="Ayakkabı Ara...">
+        </div>
+        <div class="navbar-right">
+            <a href=""><button class="nav-btn" id="login-btn">Üye Giriş</button></a>
+            <a href="register.html"><button class="nav-btn" id="signup-btn">Üye Ol</button></a>
+            <a href=""><button class="nav-btn" id="cart-btn">Sepet</button></a>
+        </div>
+    </nav>
+
+    <!-- Kategori Başlığı -->
+    <div class="category-header" style="text-align: center; margin-top: 30px;">
+        <h1 id="category-title">Kategori Başlığı</h1>
+    </div>
+
+    <!-- Ürün Listeleme Alanı -->
+    <div id="product-list" class="product-cards" style="display: flex; justify-content: space-around; flex-wrap: wrap; margin: 20px;">
+        <!-- Ürünler burada dinamik olarak eklenecek -->
+    </div>
+
+</body>
+</html>

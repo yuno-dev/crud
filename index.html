@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayakkabı Firması</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Açılışa özel indirim barı -->
+    <div class="discount-bar">
+        <p>Açılış Şərəfinə 10% Endirimi Qaçırmayın</p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <button class="nav-btn" id="home-btn">Ana Səhifə</button>
+        </div>
+        <div class="navbar-center">
+            <input type="text" id="search-bar" placeholder="Ayakkabı Ara...">
+        </div>
+        <div class="navbar-right">
+            <a href=""><button class="nav-btn" id="login-btn">Üye Giriş</button></a>
+            <a href="register.html"><button class="nav-btn" id="signup-btn">Üye Ol</button></a>
+            <a href=""><button class="nav-btn" id="cart-btn">Sepet</button></a>
+        </div>
+    </nav>
+
+    <!-- Ana içerik alanı -->
+    <div class="content">
+        <h1>Ən Ucuz ve Keyfiyyətli Ayaqqabıların Məkanı</h1>
+    </div>
+
+
+
+    <div class="product-cards">
+        <!-- Bot Ürün Kartı -->
+        <div class="card" data-category="bot">
+            <img src="https://example.com/bot.jpg" alt="Bot Ayakkabısı">
+            <div class="card-info">
+                <h3>Dağcılık Botu</h3>
+                <p class="price">₺1499,99</p>
+                <button class="more-info-btn" data-id="bot">Ətraflı Məlumat</button>
+            </div>
+        </div>
+    
+        <!-- Spor Ayakkabısı Ürün Kartı -->
+        <div class="card" data-category="spor-ayakkabisi">
+            <img src="https://example.com/spor-ayakkabi.jpg" alt="Spor Ayakkabısı">
+            <div class="card-info">
+                <h3>Nike Air Zoom Pegasus</h3>
+                <p class="price">₺899,99</p>
+                <button class="more-info-btn" data-id="spor-ayakkabisi">Ətraflı Məlumat</button>
+            </div>
+        </div>
+    
+        <!-- Classic Ayakkabı Ürün Kartı -->
+        <div class="card" data-category="classic-ayakkabi">
+            <img src="https://example.com/classic-ayakkabi.jpg" alt="Classic Ayakkabı">
+            <div class="card-info">
+                <h3>Classic Oxford Ayakkabı</h3>
+                <p class="price">₺1199,99</p>
+                <button class="more-info-btn" data-id="classic-ayakkabi">Ətraflı Məlumat</button>
+            </div>
+        </div>
+    
+        <!-- Günlük Ayakkabı Ürün Kartı -->
+        <div class="card" data-category="gunluk-ayakkabi">
+            <img src="https://example.com/gunluk-ayakkabi.jpg" alt="Günlük Ayakkabı">
+            <div class="card-info">
+                <h3>Günlük Rahat Sneaker</h3>
+                <p class="price">₺699,99</p>
+                <button class="more-info-btn" data-id="gunluk-ayakkabi">Ətraflı Məlumat</button>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
